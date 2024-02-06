@@ -1,24 +1,25 @@
 {
-    "color": {
-      "brand": {
-      "$value": "{color.green.500}",
+  "color": {
+    "brand": {
       "$type": "color",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
+      "$value": "{color.green.500}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
         }
+      }
     },
     "background": {
       "default": {
+        "$type": "color",
         "$value": "{color.neutral.900}",
-          "$type": "color",
-        "$description": "Use this for flat layouts.",
-          "$extensions": {
+        "$description": "Abc",
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -29,10 +30,10 @@
         }
       },
       "front": {
+        "$type": "color",
         "$value": "{color.neutral.800}",
-          "$type": "color",
         "$description": "Background color applied on top of background-back.",
-          "$extensions": {
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -43,10 +44,10 @@
         }
       },
       "back": {
+        "$type": "color",
         "$value": "{color.neutral.900}",
-          "$type": "color",
         "$description": "Background color applied to the base layer of the application.",
-          "$extensions": {
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -57,10 +58,10 @@
         }
       },
       "contrast": {
-        "$value": "#0000000A",
-          "$type": "color",
+        "$type": "color",
+        "$value": "#0000000a",
         "$description": "abc",
-          "$extensions": {
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -71,10 +72,10 @@
         }
       },
       "active": {
+        "$type": "color",
         "$value": "{color.background.contrast}",
-          "$type": "color",
         "$description": "abc",
-          "$extensions": {
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -85,10 +86,10 @@
         }
       },
       "selected": {
+        "$type": "color",
         "$value": "{color.brand}",
-          "$type": "color",
         "$description": "abc",
-          "$extensions": {
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -100,54 +101,55 @@
       },
       "validation": {
         "critical": {
-          "$value": "#FC61613D",
           "$type": "color",
+          "$value": "#fc61613d",
           "$description": "abc",
-            "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {}
+            }
           }
-        }
         },
         "warning": {
-          "$value": "#FFBC443D",
           "$type": "color",
+          "$value": "#ffbc443d",
           "$description": "abc",
-            "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {}
+            }
           }
-        }
         },
         "ok": {
-          "$value": "#17EBA03D",
           "$type": "color",
+          "$value": "#17eba03d",
           "$description": "abc",
-            "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {}
+            }
           }
-        }
         }
       }
     },
     "border": {
       "default": {
-        "$value": "{color.neutral.300}",
         "$type": "color",
-          "$extensions": {
+        "$value": "{color.neutral.300}",
+        "$description": "",
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -156,12 +158,12 @@
             "codeSyntax": {}
           }
         }
-
       },
       "strong": {
-        "$value": "{color.neutral.400}",
         "$type": "color",
-          "$extensions": {
+        "$value": "{color.neutral.400}",
+        "$description": "",
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -170,12 +172,12 @@
             "codeSyntax": {}
           }
         }
-
       },
       "weak": {
-        "$value": "{color.neutral.200}",
         "$type": "color",
-          "$extensions": {
+        "$value": "{color.neutral.200}",
+        "$description": "",
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -184,14 +186,14 @@
             "codeSyntax": {}
           }
         }
-
       }
     },
     "foreground": {
       "selected": {
-        "$value": "#FFFFFF",
         "$type": "color",
-          "$extensions": {
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -203,67 +205,69 @@
       },
       "status": {
         "critical": {
-          "$value": "{color.red.500}",
           "$type": "color",
-            "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
+          "$value": "{color.red.500}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {}
+            }
           }
-        }
         },
         "warning": {
-          "$value": "{color.yellow.500}",
           "$type": "color",
-            "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
+          "$value": "{color.yellow.500}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {}
+            }
           }
-        }
-
         },
         "ok": {
-          "$value": "{color.green.400}",
           "$type": "color",
-            "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
+          "$value": "{color.green.400}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {}
+            }
           }
-        }
-
         },
         "unknown": {
-          "$value": "{color.neutral.300}",
           "$type": "color",
-            "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
+          "$value": "{color.neutral.300}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {}
+            }
           }
-        }
         }
       }
     },
     "text": {
       "default": {
-        "$value": "{color.neutral.500}",
         "$type": "color",
+        "$value": "{color.neutral.500}",
         "$description": "Default text color.",
-          "$extensions": {
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -274,9 +278,10 @@
         }
       },
       "strong": {
-        "$value": "{color.neutral.600}",
         "$type": "color",
-          "$extensions": {
+        "$value": "{color.neutral.600}",
+        "$description": "",
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -287,9 +292,10 @@
         }
       },
       "weak": {
-        "$value": "{color.neutral.400}",
         "$type": "color",
-          "$extensions": {
+        "$value": "{color.neutral.400}",
+        "$description": "",
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -300,9 +306,10 @@
         }
       },
       "xweak": {
-        "$value": "{color.neutral.300}",
         "$type": "color",
-          "$extensions": {
+        "$value": "{color.neutral.300}",
+        "$description": "",
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -313,9 +320,10 @@
         }
       },
       "active": {
-        "$value": "{color.text.strong}",
         "$type": "color",
-          "$extensions": {
+        "$value": "{color.text.strong}",
+        "$description": "",
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
@@ -326,10 +334,10 @@
         }
       },
       "disabled": {
-        "$value": "{color.text.xweak}",
         "$type": "color",
+        "$value": "{color.text.xweak}",
         "$description": "Color of disabled text.",
-          "$extensions": {
+        "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
