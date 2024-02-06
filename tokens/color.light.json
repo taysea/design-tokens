@@ -17,7 +17,7 @@
       "default": {
         "$value": "{color.neutral.000}",
           "$type": "color",
-        "$description": "abc",
+        "$description": "Use for single layer layouts.",
           "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
