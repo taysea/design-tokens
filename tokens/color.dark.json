@@ -17,7 +17,7 @@
       "default": {
         "$value": "{color.neutral.900}",
           "$type": "color",
-        "$description": "abc",
+        "$description": "Use this for flat layouts.",
           "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
